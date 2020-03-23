@@ -1,4 +1,0 @@
-D:\Users\Ryan\Projects\business-base-infrastructure\net45\RyanPenfold.BusinessBase.Infrastructure\bin\Debug\RyanPenfold.BusinessBase.Infrastructure.dll
-D:\Users\Ryan\Projects\business-base-infrastructure\net45\RyanPenfold.BusinessBase.Infrastructure\bin\Debug\RyanPenfold.BusinessBase.Infrastructure.pdb
-D:\Users\Ryan\Projects\business-base-infrastructure\net45\RyanPenfold.BusinessBase.Infrastructure\obj\Debug\RyanPenfold.BusinessBase.Infrastructure.dll
-D:\Users\Ryan\Projects\business-base-infrastructure\net45\RyanPenfold.BusinessBase.Infrastructure\obj\Debug\RyanPenfold.BusinessBase.Infrastructure.pdb

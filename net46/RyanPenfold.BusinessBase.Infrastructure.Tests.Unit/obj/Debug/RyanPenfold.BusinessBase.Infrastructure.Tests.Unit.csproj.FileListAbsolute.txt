@@ -1,8 +1,0 @@
-D:\Users\Ryan\Projects\business-base-infrastructure\net46\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\bin\Debug\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit.dll
-D:\Users\Ryan\Projects\business-base-infrastructure\net46\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\bin\Debug\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit.pdb
-D:\Users\Ryan\Projects\business-base-infrastructure\net46\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
-D:\Users\Ryan\Projects\business-base-infrastructure\net46\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\bin\Debug\RyanPenfold.BusinessBase.Infrastructure.dll
-D:\Users\Ryan\Projects\business-base-infrastructure\net46\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\bin\Debug\RyanPenfold.BusinessBase.Infrastructure.pdb
-D:\Users\Ryan\Projects\business-base-infrastructure\net46\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\obj\Debug\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit.csprojResolveAssemblyReference.cache
-D:\Users\Ryan\Projects\business-base-infrastructure\net46\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\obj\Debug\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit.dll
-D:\Users\Ryan\Projects\business-base-infrastructure\net46\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit\obj\Debug\RyanPenfold.BusinessBase.Infrastructure.Tests.Unit.pdb
