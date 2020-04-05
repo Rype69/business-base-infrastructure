@@ -5,11 +5,11 @@
 
     public abstract class BaseService<T> : IService<T>
     {
-        protected IRepository<T> _repository;
+        protected IRepository<T> Repository;
 
         protected BaseService(IRepository<T> repository)
         {
-            _repository = repository ?? throw new System.ArgumentNullException(nameof(repository));
+            Repository = repository ?? throw new System.ArgumentNullException(nameof(repository));
         }
 
         /// <summary>
@@ -18,7 +18,7 @@
         /// <returns>A set of <see cref="T"/> instances.</returns>
         public virtual IList<T> FindAll()
         {
-            return this._repository.FindAll();
+            return this.Repository.FindAll();
         }
 
         /// <summary>
@@ -32,7 +32,7 @@
         /// </returns>
         public virtual T FindById(object id)
         {
-            return this._repository.FindById(id);
+            return this.Repository.FindById(id);
         }
 
         /// <summary>
@@ -41,7 +41,7 @@
         /// <returns>A new identifier</returns>
         public virtual object NewId()
         {
-            return this._repository.NewId(this._repository.TypeMap.PrimaryKeyColumnNames.First());
+            return this.Repository.NewId(this.Repository.TypeMap.PrimaryKeyColumnNames.First());
         }
 
         /// <summary>
@@ -57,7 +57,7 @@
 
             try
             {
-                this._repository.Remove(subject);
+                this.Repository.Remove(subject);
             }
             catch (System.Exception e)
             {
@@ -85,7 +85,7 @@
                 var idPropertyValue = idProperty.GetValue(subject);
                 if (idPropertyValue != null && string.Equals(idPropertyValue.ToString(),System.Guid.Empty.ToString(), System.StringComparison.InvariantCultureIgnoreCase))
                 {
-                    var newId = this._repository.NewId("Id");
+                    var newId = this.Repository.NewId("Id");
                     if (idProperty.PropertyType == typeof(System.Guid))
                     {
                         idProperty.SetValue(subject, new System.Guid(newId));
@@ -97,7 +97,7 @@
                 }
             }
 
-            this._repository.Save(subject);
+            this.Repository.Save(subject);
         }
     }
 }
